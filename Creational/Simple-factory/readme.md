@@ -4,12 +4,12 @@
 * Generates an instance for client without exposing any instantiation
  logic to the client.
 
-####When to use :
+###When to use :
 * when creating an object with (logic and assignments),
 it makes sense to put it in dedicated factory instead of repeating
 same code every where.
   
-####How to Implement:
+###How to Implement:
 1 - Interface of needed class.
 
 2 - Declare a class that implement that interface.
@@ -20,7 +20,7 @@ same code every where.
 
 5 - Go over the client code and call static method when need to create object from class.
 
-#######Examples:
+###Examples:
 1 - Building house and you need doors, windows and you don’t need to care about how it was made. 
 
 2 - Notifier with email or sms as real world example, see this [link](https://adnanahmed.info/blog/2017/01/20/simple-factory-pattern/).
