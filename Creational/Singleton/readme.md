@@ -21,7 +21,7 @@ providing global access point to this instance.
 
 5 - Go over the client code and replace all direct calls to the singleton’s constructor with calls to its static creation method.
 
-####### Examples:
+#### Examples:
 1 - The database connection
 
 2 - The President of a country as real world example.

@@ -20,7 +20,7 @@ same code every where.
 
 5 - Go over the client code and call static method when need to create object from class.
 
-####### Examples:
+#### Examples:
 1 - Building house and you need doors, windows and you don’t need to care about how it was made. 
 
 2 - Notifier with email or sms as real world example, see this [link](https://adnanahmed.info/blog/2017/01/20/simple-factory-pattern/).
