@@ -17,4 +17,4 @@
 1 - Computer provides button "simple interface" to turn on/off 
 and internally in machine has a lot of stuff to make it happen. 
 
-2- Video converter application 
+2- Video converter application.

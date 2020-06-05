@@ -1,7 +1,7 @@
 
 ## Adapter (Wrapper)
  
-* Wrap an incompatible obj in adapter to make it compatible with another class.
+* Wrap an incompatible object in adapter to make it compatible with another class.
 
 #### When to use :
 * Used to make existing classes work with others without modifying their source code.
@@ -16,4 +16,4 @@
 #### Examples:
 1 - Memory card need to transfer data on it to computer with card reader "adapter". 
 
-2 - Fetching videos from 3rd (Youtube - Vimeo).
+2 - Fetching videos from 3rd party libraries (Youtube - Vimeo).

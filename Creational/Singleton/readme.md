@@ -14,14 +14,14 @@ providing global access point to this instance.
 
 2 - Declare a public static creation method for getting the singleton instance.
 
-3 - Implement “lazy initialization” inside the static method. It should create a new object on its first call and put it into the static field. The method should always return that instance on all subsequent calls.
+3 - Implement “lazy initialization” inside the static method, It should create a new object on its first call and put it into the static field. The method should always return that instance on all subsequent calls.
 
 4 - Make the constructor of the class private.
-'In php Disable cloning and extension'
+'In php disable cloning and extension'
 
 5 - Go over the client code and replace all direct calls to the singleton’s constructor with calls to its static creation method.
 
 #### Examples:
-1 - The database connection
+1 - The database connection.
 
 2 - The President of a country as real world example.
