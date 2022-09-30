@@ -11,7 +11,7 @@ class ComputerFacade
     /**
      * @var Computer
      */
-    private $computer;
+    private Computer $computer;
 
     /**
      * ComputerFacade constructor.
